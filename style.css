@@ -1,0 +1,507 @@
+.navbar
+{
+    display: flex;
+    position: sticky;
+    justify-content: space-around;
+    width: 100vw;
+    top: 0vh;
+    background-color: rgb(194, 7, 7);
+    opacity: 0.95;
+    margin: 0;
+    padding: 3vh 0vh;
+    list-style-type: none;
+}
+#navtext
+{
+    font-size: large;
+    color: antiquewhite;
+    display: inline;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+    font-family:'Montserrat', sans-serif;
+    letter-spacing: 0.2vh;
+}
+#navtext:hover
+{
+    color: rgb(192, 192, 192);
+}
+.headerdiv
+{
+    height: 20vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero
+{
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://dragon2000-multisite.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/311/2022/06/29091620/Scuderia-Prestige-Home-Page-Hero-Slide-Show-3_result.jpg");
+
+}
+#heroheader
+{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: cornsilk;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12vh;
+    margin: 0vh;
+    letter-spacing: 0.3vw;
+    word-spacing: 0.5vw;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#div2
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+/* #herovideo
+{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+} */
+#header
+{
+    font-size: 4vh;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding-top : 10vh;
+    text-align: center;
+    letter-spacing: 0.2vw;
+    word-spacing: 0.5vw;
+    font-weight: lighter;
+
+}
+#underline
+{
+    height: 10vh;
+    width: 30vh;
+    margin: 0;
+    padding: 0vh;
+    align-self: center;
+}
+.cars
+{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+#car
+{
+    width: 27vw;
+    height: 19vw;
+    object-fit:contain;
+    /* width: 40vh; */
+    /* object-position: bottom; */
+}
+#newcar
+{
+    display: flex;
+    flex-direction: column;
+    width: 27vw;
+    height: 100vh;
+    text-align: center;
+}
+#carheader
+{
+    font-size: 4vh;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.05vw;
+    word-spacing: 0.4vw;
+    font-weight: lighter;
+    margin-top: 0vh;
+    margin-bottom: 2vh;
+}
+#cartext
+{
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+#footer
+{
+    height: 60vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+#ltext
+{
+    color: cornsilk;
+    font-size: 4vh;
+    font-family:'Montserrat', sans-serif;
+    letter-spacing: 0.2vh;
+    text-align: left;
+}
+#stext
+{
+    color: cornsilk;
+    font-size: 2vh;
+    font-family:'Montserrat', sans-serif;
+    letter-spacing: 0.2vh;
+    text-align: left;
+}
+#left-footer
+{
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-top: 4vh;
+    height: 15vh;
+}
+#right-footer
+{
+    flex-direction: column;
+    margin-right: 5vw;
+    margin-top: 4vh;
+}
+#social
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0vh;
+}
+#instagram
+{
+    height: 4vh;
+    width: 4vh;
+    margin-top: 1.5vh;
+    margin-right: 2vw;
+}
+#facebook
+{
+    height: 5vh;
+    width: 5vh;
+    margin-top: 1vh;
+}
+#twitter
+{
+    height: 7vh;
+    width: 12vh;
+}
+#youtube
+{
+    height: 6vh;
+    width: 6vh;
+    margin-top: 1vh;
+}
+#productname   
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 251, 235);
+    height: 20vh;
+    width: 100vw;
+    border-bottom: 3vh solid rgb(194, 7, 7);
+    border-top:  3vh solid rgb(194, 7, 7);
+    animation-name: revealcar;
+    animation-duration: 4s;
+}
+#prodheader
+{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12vh;
+    margin: 0vh;
+    letter-spacing: 0.3vw;
+    word-spacing: 0.5vw;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#manulogo
+{
+    height: 12vh;
+    margin-right: 5vw;
+}
+#prodbody
+{
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    animation-name: blackscreen;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+#bgvideo
+{
+    height: 100vh;
+    width: 100vw;
+}
+#prodinfo
+{
+    height: 80vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#spec
+{
+    list-style: circle;
+    font-size: 2.6vh;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin-left: 4vw;
+    margin-top: 4vw;
+}
+#spec li
+{
+    margin: 2vh;
+}
+#uhspec
+{
+    font-size: 4vh;
+}
+#carinfo
+{
+    background-color: rgb(241, 241, 241);
+    height: 70vh;
+    width: 30vw;
+    margin-top: 4vw;
+    margin-right: 4vw;
+    display: flex;
+    flex-direction: column;
+}
+#infotable
+{
+    font-size: 2.6vh;
+    font-family: 'Montserrat', sans-serif;
+    height: 40vh;
+    width: 30vw;
+    border-collapse: collapse;
+    padding: 30vw;
+}
+#carinfo td
+{
+    text-align: left;
+    padding-left: 3vh;
+}
+#price
+{
+    text-align: center;
+    padding: 2vh;
+    font-size: 4vh;
+    font-family: 'Montserrat', sans-serif;
+}
+#bhtext
+{
+    text-align:left;
+    padding: 0%;
+    margin-top: 5vw;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+#callbutton
+{
+    height: 10vh;
+    width: 26vw;
+    background-color: transparent;
+    border: 0.4vh solid black;
+    align-self: center;
+    cursor: pointer;
+}
+#callbutton:hover
+{
+    background-color: rgb(180, 180, 180);
+    transition-duration: 0.7s;
+}
+.prodpics
+{
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    background-color: white;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+#smallpics
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30vw;
+    width: 15vw;
+}
+#smallpic1
+{
+    height: 12vw;
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("pictures/488-rear.png"); */
+    object-fit: contain;
+}
+#smallpic2
+{
+    height: 12vw;
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("pictures/488side.png"); */
+    object-fit: contain;
+}
+#smallpic3
+{
+    height: 12vw;
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("pictures/488rear.png"); */
+    object-fit: contain;
+}
+#bigpicture
+{
+    height: 30vw;
+    margin-left: 10vw;
+    /* background-image: url("pictures/488lside.png");
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+#bigpic
+{
+    height: 30vw;
+    display: block;
+}
+#bigpic1
+{
+    height: 30vw;
+    display: none;
+}
+#bigpic2
+{
+    height: 40vh;
+    display: none;
+}
+#bigpic3
+{
+    height: 30vw;
+    display: none;
+}
+.prodpics #smallpics #smallpic1:hover #bigpictures
+{
+    display: none;
+} 
+#btext
+{
+    padding: 0; 
+    margin:0; 
+    font-size: 3vh;
+}
+#backhome
+{
+    color: cornsilk;
+    border: none;
+    margin-top: 10vw;
+    cursor: pointer;
+    text-decoration: none;
+}
+@keyframes blackscreen
+{
+    from {background-color: white;}
+    to {background-color: black;}
+}
+@media screen and (max-width: 768px)
+{
+    #footer
+    {
+        flex-direction: column;
+    }
+    #heroheader
+    {
+        font-size: 10vh;
+    }
+    #social
+    {
+        justify-content: center;
+    }
+    #instagram
+    {
+        margin-right: 7vw;
+    }
+    #carheader
+    {
+        font-size: 3vh;
+    }
+    #cartext
+    {
+        font-size: 1.5vh;
+    }
+    #hero
+    {
+        height: 50vh;
+    }
+    #prodheader
+    {
+        font-size: 10vw;
+    }
+    #prodinfo
+    {
+        height: 70vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #carinfo
+    {
+        height: 27vh;
+        width: 90vw;
+        align-self: center;
+    }
+    #carinfo table
+    {
+        font-size: 2vw;
+    }
+    #spec
+    {
+        font-size: 2vw;
+    }
+    #spec ul
+    {
+        padding: 0;
+    }
+    #price
+    {
+        font-size: 4vw;
+        margin: 0;
+        padding: 2vw;
+    }
+    #infotable
+    {
+        width: 80vw;
+        margin-top: 2vh;
+    }
+    #callbutton
+    {
+        height: 3vh;
+        width: 40vw;
+        border-width: 0.3vw;
+        margin-bottom: 2vw;
+    }
+    .prodpics
+    {
+        height: 25vh;
+        align-content: center;
+    }
+    #btext
+    {
+        font-size: 2vw;
+    }
+}
+
