@@ -41,7 +41,6 @@
     height: 100vh;
     width: 100vw;
     background-image: url("https://dragon2000-multisite.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/311/2022/06/29091620/Scuderia-Prestige-Home-Page-Hero-Slide-Show-3_result.jpg");
-
 }
 #heroheader
 {
@@ -237,6 +236,28 @@
     background-color: white;
     height: 100vh;
     width: 100vw;
+    animation-name: blackscreen;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+#prodbodyferrari
+{
+    background-image: url("pictures/ferraribg.jpeg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: blackscreen;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+#prodbodymclaren
+{
+    background-image: url("pictures/720sbg.jpeg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
     animation-name: blackscreen;
     animation-duration: 2s;
     animation-fill-mode: forwards;
